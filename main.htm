@@ -1,0 +1,43 @@
+<? 
+
+    $_zb_url = "http://park684.mireene.com/bbs/"; 
+
+    $_zb_path = "/home/01/park684/html/bbs/"; 
+
+    include $_zb_path."outlogin.php"; 
+
+?>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>제목 없음</title>
+<meta name="generator" content="Namo WebEditor v6.0">
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+<table border="0" align="center" width="100%">
+    <tr>
+        <td width="800" colspan="2" align="center" valign="top">            
+            <p align="center"><? print_bbs("rini_new_n", "공지사항", "notice", 5, 20)?></p>
+</td>
+    </tr>
+    <tr>
+        <td width="398" align="center" valign="top">            
+            <p align="center"><? print_bbs("rini_new_b", "자유게시판", "free", 5, 20)?></p>
+</td>
+        <td width="398" align="center" valign="top">            
+            <p align="center"><? print_bbs("rini_new_b", "Q/A", "qa", 5, 20)?></p>
+</td>
+    </tr>
+    <tr>
+        <td width="398" height="7" align="center" valign="top">
+            <p align="center"><? print_bbs("rini_new_b", "플래쉬게임", "flashgame", 5, 20)?></p>
+</td>
+        <td width="398" height="7" align="center" valign="top">
+            <p align="center"><? print_bbs("rini_new_b", "자료실", "download", 5, 20)?></p>
+</td>
+    </tr>
+</table></body>
+
+</html>
